@@ -1,5 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
+
+
 <head>
     <meta charset="utf-8" />
     <title>Portfolio
@@ -7,67 +9,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script charset="utf-8" src="js/app.js"></script>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
 </head>
+
+
+
 <header>
-   <a href='index.html' class='header-brand'>Sean Bettoni</a>
-   <nav>
+   <a href='index.html' class='header'></a>
+   <nav class='nav main-nav'>
        <ul>
-           <li><a href='portfolio.html'>Portfolio</a></li>
-           <li><a href='about.html'>About Me</a></li>
-           <li><a href='contact.html'>Contacts</a></li>
+           <li><a href='#portfolio-section'>Portfolio</a></li>
+           <li><a href='#about-me-section'>About Me</a></li>
+           <li><a href='#contact-section'>Contacts</a></li>
        </ul>
    </nav>
+   <h1 class='my-name'>Sean Bettoni</h1>
 </header>
-<main>
-   <section class='index-banner'>
-        <h2>Sean's Portfolio<br></h2>
-        <h1>I have being involved in the technology industry in a retail capacity for some years now, <br> and have only recently
-            pursued web development in a professional capacity.
-        </h1>
-        <img class='mainphoto' src="sbcasino.jpg" alt="Sean Bettoni standing infront of a chinese new year decoration at the casino">
-   </section>
+
+
+
+
+
+<section class='about-me container'>
+    <a id='about-me-section'>
+     <h2 class='section-header'>About Me:</h2>
+     <img class='mainphoto' src="images/sbcasino.jpg" alt="Sean Bettoni standing infront of a chinese new year decoration at the casino">
+     <p class='about-me-p'>I have being involved in the technology industry in a retail capacity for some years now, and have only recently
+         pursued web development in a professional capacity.
+     </p>
+</section>
   
-</main>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 <body>
+    <a id='portfolio-section'>
+    <div class='flexbox-container1'>
 
-    <section class='box'>
-        <header>Example 1</header>
-        <img class='placeholderImg' src="placeholder.webp" alt="Placeholder Image">
+    <section class='flexbox-item flexbox-item-1'>
+        <header>Novice Chef</header>
+        <a href='https://bt134.github.io/novice-chef/' target="_blank">
+        <img class='placeholderImg1' src="images/NoviceChef.png" alt="The Novice Chef Home Page">
+        </a>
+        <p> A webpage designed to help a user search for recepies to dishes, accompanied by pictures, a list of required ingredients and a youtube video tutorial on how to cook the dish.</p>
     </section>
-    <section class='box'>
-        <header>Example 2</header>
-        <img class='placeholderImg' src="placeholder.webp" alt="Placeholder Image">
+
+
+    <section class='flexbox-item flexbox-item-2'>
+        <header>Weather App</header>
+        <a href='https://sean-bettoni.github.io/Weather-Dashboard/' target="_blank">
+        <img class='placeholderImg2' src="images/WeatherDashboard.png" alt="Weather Application">
+        </a>
+        <p> A weather application that allows the user to receive current and future weather information on a selected city.</p>
     </section>
-    <section class='box'>
-        <header>Example 3</header>
-        <img class='placeholderImg' src="placeholder.webp" alt="Placeholder Image">
+
+
+    <section class='flexbox-item flexbox-item-3'>
+        <header>Daily Planner</header>
+        <a href='https://sean-bettoni.github.io/Work-Day-Planner/' target="_blank">
+        <img class='placeholderImg3' src="images/WorkDayPlanner.png" alt="Daily Planner Application">
+        </a>
+        <p> A daily planner application to help organise a busy schedule.</p>
     </section>
-    <section class='box'>
-        <header>Example 4</header>
-        <img class='placeholderImg' src="placeholder.webp" alt="Placeholder Image">
-    </section>
-    <section class='box'>
-        <header>Example 5</header>
-        <img class='placeholderImg' src="placeholder.webp" alt="Placeholder Image">
-    </section>
-    <section class='box'>
-        <header>Example 6</header>
-        <img class='placeholderImg' src="placeholder.webp" alt="Placeholder Image">
-    </section>
+
+    </div>
+
+    <div class='flexbox-container2'>
+
+        <section class='flexbox-item flexbox-item-4'>
+            <header>Example 4</header>
+            <img class='placeholderImg4' src="images/placeholder.webp" alt="Placeholder Image">
+            <p></p>
+        </section>
+
+        <section class='flexbox-item flexbox-item-5'>
+            <header>Example 5</header>
+            <img class='placeholderImg5' src="images/placeholder.webp" alt="Placeholder Image">
+            <p></p>
+        </section>
+
+        <section class='flexbox-item flexbox-item-6'>
+            <header>Example 6</header>
+            <img class='placeholderImg6' src="images/placeholder.webp" alt="Placeholder Image">
+            <p></p>
+        </section>
+
+
+    </div>
+
+
 
 </body>
-<footer>
-    <ul>
+
+
+
+
+<footer class='main-footer'>
+    <div class='container main-footer-container'>
+    <ul class='nav footer-nav'>
+        <a id='contact-section'>
         <li>
-            <a href="https://www.facebook.com/sean.bettoni/">Sean's Social Media</a>
+            <a href="https://www.facebook.com/sean.bettoni/" target="_blank">Social Media</a>
         </li>
         <li>
             PH: 0420 715 025
         </li>
+        <br>
         <li>
             Email: bettoni98@hotmail.com
         </li>
     </ul>
+    </div>
+    </footer>
 </footer>
 </html>
