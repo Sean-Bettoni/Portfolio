@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Lobster', cursive;
-    color: #777;
+    color: white;
 }
 
 html, body {
@@ -56,6 +56,11 @@ header {
 /* About Me */
 .about-me {
     margin: 1em;
+    background-color: rgb(3, 100, 145);
+}
+
+.about-me-box {
+    padding-bottom: 35px;
 }
 
 .container {
@@ -84,24 +89,42 @@ header {
     border-radius: 50%;
 }
 
+.section-spacing {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
 /* Flex Boxes */
+
+.flexbox-content-text-p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+}
 
 .flexbox-container1 {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(3, 100, 145);
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .flexbox-container2 {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(3, 100, 145);
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .flexbox-item {
     width: 250px;
-    align-self: start;
+    align-self: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .flexbox-item-1 {
@@ -109,28 +132,40 @@ header {
     flex-grow: 2;
     flex-basis: 0;
     align-self: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .flexbox-item-2 {
     flex-grow: 1;
     flex-basis: 0;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .flexbox-item-3 {
     flex-grow: 1;
     flex-basis: 0;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .flexbox-item-4 {
     flex-grow: 1;
     flex-basis: 0;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .flexbox-item-5 {
     flex-grow: 1;
     flex-basis: 0;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .flexbox-item-6 {
     flex-grow: 1;
     flex-basis: 0;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .placeholderImg1 {
@@ -165,10 +200,6 @@ header {
 }
 
 
-
-
-
-
 /* Footer */
 .main-footer {
     background-color: #012a38;
@@ -191,3 +222,46 @@ header {
     font-size: 30px;
 }
 
+/* Media Query */
+
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      font-size: medium;
+      align-items: center;
+    }
+    
+    main {
+      flex-direction: column; 
+      font-size: small;
+    }
+  
+    .flexbox-item {
+      font-size: small;
+    }
+    .flexbox-content-text-p{
+      font-size: small;
+    }
+
+    .flexbox-container1 {
+      display: block;
+      flex: auto;
+    }
+    .flexbox-container2 {
+      display: block;
+      flex: auto;
+      }
+  
+    .contact {
+      font-size: 12px;
+    }
+
+    .main-footer{
+      justify-content: center;
+      margin-left: -5%;
+    }
+  
+    .footer-nav {
+      font-size: 12px;
+    }
+  }
