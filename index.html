@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
 
 
@@ -28,21 +29,27 @@
            <li><a href='#contact-section'>Contacts</a></li>
        </ul>
    </nav>
-   <h1 class='my-name'>Sean Bettoni</h1>
 </header>
 
 
+<section class='intro'>
+    <h1 class='intro-h1'>Welcome to the portfolio of <span class="intro-my-name">Sean Bettoni</span></h1>
+    <h2 class='intro-h2'>- Student Full-Stack Web Developer -</h2>
+    
+</section>
 
 
-
-<section class='about-me container' id='about-me-id'>
+<section class='about-me'>
     <a id='about-me-section'>
      <h2 class='section-header'>About Me:</h2>
      <div class='about-me-box'>
-     <img class='mainphoto' src="images/sbcasino.jpg" alt="Sean Bettoni standing infront of a chinese new year decoration at the casino">
-     <p class='about-me-p'>I have being involved in the technology industry in a retail capacity for some years now, and have only recently
-         pursued web development in a professional capacity. <br>I' am currently completing a full stack computer coding boot camp course through the University Of Western Australia.
-         <br>Ontop of this I have also obtained a bachelors degree in Sport Science from Edith Cowan University.
+     <img class='mainphoto' src="images/head-shot.png" alt="Sean Bettoni standing infront of a chinese new year decoration at the casino">
+     <p class='about-me-p'>
+         
+        I am an enthusiastic developer with only 6 months coding experience completing a full stack boot camp course through The University Of Western Australia, 
+        looking to dive head first into the software industry to pursue my new found passion.
+         <br>
+         Ontop of this I have also obtained a bachelors degree in Sport Science from Edith Cowan University and have 10 years of retail experience in consumer electronics.
      </p>
     </div>
 </section>
@@ -55,23 +62,25 @@
 <body>
     <a id='portfolio-section'>
     <h2 id='featured-work-heading'>- Featured Work -</h2>
-    <div class='flexbox-container-main container'>
+    <div class='flexbox-container-main'>
 
         <section class='flexbox-item flexbox-item-1'>
-            <h2>Novice Chef</h2>
-            <a href='https://bt134.github.io/novice-chef/' target="_blank">
-            <img class='placeholderImg1' src="images/NoviceChef.png" alt="The Novice Chef Home Page">
+            <h2>Am I A Joke To You?</h2>
+            <a href='https://am-i-a-joke-to-you.herokuapp.com/' target="_blank">
+            <img class='placeholderImg1' src="images/am-i-a-joke-to-you.png" alt="Am I A Joke To You Home Page">
             </a>
-            <p class='flexbox-content-text-p'> A webpage designed to help a user search for recepies to dishes, accompanied by pictures, a list of required ingredients and a youtube video tutorial on how to cook the dish.</p>
+            <p class='flexbox-content-text-p'> This website allows users to search for jokes that have been categorised. If the user created an account they will
+                also have the ability to add, rate and comment on jokes and see other peoples comments.</p>
         </section>
 
 
         <section class='flexbox-item flexbox-item-2'>
-            <h2>Weather App</h2>
-            <a href='https://sean-bettoni.github.io/Weather-Dashboard/' target="_blank">
-            <img class='placeholderImg2' src="images/WeatherDashboard.png" alt="Weather Application">
+            <h2>Novice Chef</h2>
+            <a href='https://bt134.github.io/novice-chef/' target="_blank">
+            <img class='placeholderImg2' src="images/NoviceChef.png" alt="The Novice Chef Home Page">
             </a>
-            <p class='flexbox-content-text-p'> A weather application that allows the user to receive current and future weather information on a selected city.</p>
+            <p class='flexbox-content-text-p'> A webpage designed to help a user search for recepies to dishes, 
+                accompanied by pictures, a list of required ingredients and a youtube video tutorial on how to cook the dish.</p>
         </section>
 
 
@@ -80,7 +89,7 @@
             <a href='https://sean-bettoni.github.io/Work-Day-Planner/' target="_blank">
             <img class='placeholderImg3' src="images/WorkDayPlanner.png" alt="Daily Planner Application">
             </a>
-            <p class='flexbox-content-text-p'> A daily planner application to help organise a busy schedule.</p>
+            <p class='flexbox-content-text-p'> A daily planner application to help organise a busy schedule, includes colour coded sections to help visualise what the current time of day is. </p>
         </section>
 
     </div>
@@ -110,31 +119,39 @@
 
 </body>
 
+<br>
+
 
 <footer class='main-footer'>
-    <div class='container main-footer-container'>
+    <!-- <h2 id='contact-heading'>- Contact -</h2> -->
+    <div class='main-footer-container'>
     <ul class='nav footer-nav'>
         <a id='contact-section'>
-        <li>
-            <a href="https://www.facebook.com/sean.bettoni/" target="_blank">Social Media</a>
+        
+        <li class='social-media-icons'>
+            <a href="https://www.facebook.com/sean.bettoni/" target="_blank" ><img src='images/Facebook.png' height='40', width='40'></a>
         </li>
-        <li>
-            <a href="https://github.com/Sean-Bettoni" target="_blank">Github</a>
+        
+        <li class='social-media-icons'>
+            <a href="https://github.com/Sean-Bettoni" target="_blank" ><img src='images/GitHub.png' height='40', width='40'></a>
         </li>
-        <li>
-            <a href="https://www.linkedin.com/in/sean-bettoni-9149b220b/" target="_blank">Linkedin</a>
+        
+        <li class='social-media-icons'>
+            <a href="https://www.linkedin.com/in/sean-bettoni-9149b220b/" target="_blank" ><img src='images/Linked-in.png' height='40', width='40'></a>
         </li>
-        <li>
-            <a href="images/Full-Stack-Resume-Draft-2.pdf" target="_blank">Resume</a>
+        
+        <li class='social-media-icons'>
+            <a href="images/Full-Stack-Resume-Draft-2.pdf" target="_blank" >Resume</a>
         </li>
-        <br>
+        
+  
         <li>
             PH: 0420 715 025
         </li>
-        <br>
-        <li>
+
+        <!-- <li>
             Email: bettoni98@hotmail.com
-        </li>
+        </li> -->
     </ul>
     </div>
     </footer>
