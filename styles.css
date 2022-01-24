@@ -46,23 +46,26 @@ body {
 }
 
 
+
+/* Intro Section */
 .intro {
-    font-size: 1.5em;
+    font-size: 3em;
     text-align: center;
     text-shadow:   
     -1px -1px 0 rgb(255, 255, 255),  
     1px -1px 0 rgb(255, 255, 255),
     -1px 1px 0 rgb(255, 255, 255),
     1px 1px 0 rgb(255, 255, 255);
-
 }
+
 
 .intro-h1 {    
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
-    font-weight: bolder;
     color: black;
 }
+
+
 .intro-my-name {
     font-family: 'Lobster', cursive;
     color: black;
@@ -72,13 +75,12 @@ body {
     1px -1px 0 rgb(255, 255, 255),
     -1px 1px 0 rgb(255, 255, 255),
     1px 1px 0 rgb(255, 255, 255);
-
 }
+
 
 .intro-h2 {    
     font-family: 'Amatic SC', cursive;
     font-size: 1.5em;
-    font-weight: bolder;
     color: black;
     text-shadow:   
     -1px -1px 0 rgb(255, 255, 255),  
@@ -86,8 +88,6 @@ body {
     -1px 1px 0 rgb(255, 255, 255),
     1px 1px 0 rgb(255, 255, 255);
 }
-
-
 
 
 h2 {
@@ -154,6 +154,8 @@ h2 {
     width: 35%;
     margin: 15px;
     border-radius: 50%;
+    min-width: 165px;
+    min-height: 165px;
 }
 
 .section-spacing {
@@ -167,14 +169,13 @@ h2 {
 
 /* Flex Boxes */
 
-.featured-work-heading {
-    font-size: 100px;
+h2.featured-work-heading {
 }
 
 
 .flexbox-content-text-p {
     font-family: 'Amatic SC', cursive;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 
@@ -236,6 +237,20 @@ h2 {
     align-content: center;
 }
 
+/* --------- Up Arrow --------- */
+.up-arrow-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+.up-arrow-img:hover {
+    transform: scale(1.3);
+}
+
 
 
 /* Footer */
@@ -249,7 +264,7 @@ h2 {
 .social-media-icons {
     display: inline-block;
     text-align: center;
-    margin: 10px;
+    padding: 3px;
 }
 
 
@@ -278,7 +293,7 @@ h2 {
 }
 
 .footer-nav li {
-    padding: 0 .5em;
+    /* padding: 0 .5em; */
     font-size: 30px;
 }
 
@@ -289,6 +304,36 @@ h2 {
 
 
 
+/* ------------- Portfolio Page ------------- */
+
+.portfolio-header {
+    font-size: 200px;
+}
+
+.portfolio-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-flex-item {
+    height: 700px;
+    width: 600px;
+    background-color: #1a1a1d;
+    border: 1px solid rgba(255, 255, 255, .3);
+    margin: 20px;
+    padding: 10px;
+}
+.portfolio-flex-item:hover {
+    transform: scale(1.1);
+}
+
+.portfolio-img {
+    max-width: 100%;
+    max-height: 500px;
+    align-content: center;
+}
 
 /* Media Query */
 
@@ -326,10 +371,24 @@ h2 {
 
     .main-footer{
       justify-content: center;
-      margin-left: -5%;
+      /* margin-left: -5%; */
     }
   
     .footer-nav {
       font-size: 12px;
+    }
+
+
+    /* portfolio page */
+    .portfolio-header {
+        font-size: 75px;
+    }
+
+    .portfolio-img {
+        min-width: 100%;
+        min-height: 200px;
+    }
+    .flexbox-content-text-p {
+        font-size: 1.5em;
     }
   }
