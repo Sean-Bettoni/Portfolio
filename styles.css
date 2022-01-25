@@ -7,7 +7,7 @@
 body {
     margin: 0;
     background-image: url('images/vines.jfif');
-    object-fit: fill;
+    object-fit: stretch;
 }
 
 
@@ -24,7 +24,7 @@ body {
 
 .nav a {
     padding: .5em;
-    color: white;
+    color: ivory;
     text-decoration: none;
     display: inline-block;
 }
@@ -62,7 +62,7 @@ body {
 .intro-h1 {    
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
-    color: white;
+    color: ivory;
 }
 
 
@@ -81,7 +81,7 @@ body {
 .intro-h2 {    
     font-family: 'Amatic SC', cursive;
     font-size: 1.5em;
-    color: white;
+    color: ivory;
     text-shadow:   
     -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -111,7 +111,7 @@ h2 {
     font-size: 6em;
     font-family: 'Lobster', cursive;
     font-weight: normal;
-    color: white;
+    color: ivory;
     text-shadow:   
     -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -244,7 +244,7 @@ h2.featured-work-heading {
     margin-right: auto;
     width: 50px;
     height: 50px;
-    background-color: white;
+    background-color: ivory;
     border-radius: 50%;
 }
 .up-arrow-img:hover {
