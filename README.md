@@ -1,14 +1,28 @@
-# Portfolio
-A portfolio of Sean's developed websites.
 
-The website consists of a breif introduction of myself with an included photo, followed by some of my completed work and placeholders for upcomming work.
-All images of completed work will open up to their corresponding webpages when clicked.
-In the footer of the website you can find my contact information and a link to my social media, Github, Linkedin and downloadable Resume.
+  # Portfolio
 
-Technologies Used:
-HTML for page content
-CSS for page styles
-
-URL: https://sean-bettoni.github.io/Portfolio/
-REPO: https://github.com/Sean-Bettoni/Portfolio
-Contact: bettoni98@hotmail.com
+  ![MIT_License](https://img.shields.io/badge/MIT_License-License-purple)
+  ## Table of Contents:
+  An individually built professional portfolio showcasing my full stack development journey.
+  * [Installation](#install)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contribute)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  ### Installation:
+  In order to install the necessary dependencies, open the console and run the following:
+  There are no instillation instructions for this project.
+  ### Usage:
+  To access this application please navigate to https://sean-bettoni.github.io/Portfolio/
+  ### License:
+  This project is licensed under:
+  MIT_License
+  ### Contributing:
+  Unfortunately I'am not accepting contributions for this project.
+  ### Tests:
+  There are no test instructions.
+  ### Questions:
+  If you have any questions please contact me on GitHub:
+  (https://github.com/Sean-Bettoni), or contact Sean at bettoni98@hotmail.com
+  
