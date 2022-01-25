@@ -3,7 +3,7 @@
 
   ![MIT_License](https://img.shields.io/badge/MIT_License-License-purple)
   ## Table of Contents:
-  An individually built professional portfolio showcasing my full stack development journey. This site was created using HTML and CSS languages.
+  An individually built professional portfolio showcasing my full stack development journey. This site was created using HTML and CSS languages. The user can be directed to my     social media accounts by use of the nevigation in the footer, they also have the ability to download my resume here.
   * [Installation](#install)
   * [Usage](#usage)
   * [License](#license)
