@@ -6,9 +6,6 @@
   An individually built professional portfolio showcasing my full stack development journey. This site was created using HTML and CSS languages.
   * [Installation](#install)
   * [Usage](#usage)
-  * ![portf1](https://user-images.githubusercontent.com/82442926/150893311-1af1cc3f-fc0b-49de-8568-13489c2320da.png)
-    ![portf2](https://user-images.githubusercontent.com/82442926/150893323-a2e93080-33d5-4bc9-b863-8605f0233462.png)
-
   * [License](#license)
   * [Contributing](#contribute)
   * [Tests](#tests)
@@ -18,6 +15,8 @@
   There are no instillation instructions for this project.
   ### Usage:
   To access this application please navigate to https://sean-bettoni.github.io/Portfolio/
+  ![portf1](https://user-images.githubusercontent.com/82442926/150893311-1af1cc3f-fc0b-49de-8568-13489c2320da.png)
+  ![portf2](https://user-images.githubusercontent.com/82442926/150893323-a2e93080-33d5-4bc9-b863-8605f0233462.png)
   ### License:
   This project is licensed under:
   MIT_License
